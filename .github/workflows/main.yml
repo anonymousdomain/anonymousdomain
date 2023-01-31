@@ -21,4 +21,6 @@ jobs:
           config_timezone: Europe/Paris
           plugin_isocalendar: yes
           plugin_languages: yes
-          config_order: base.header, isocalendar, languages
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
+          config_order: base.header, isocalendar, languages,leetcode
