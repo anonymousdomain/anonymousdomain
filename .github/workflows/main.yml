@@ -15,5 +15,5 @@ jobs:
       - uses: anonymousdomain/metrics@master
         with:
           token: ${{ secrets.METRICS }}
-          base: ''
+          base: header, activity, community, repositories, metadata
         
