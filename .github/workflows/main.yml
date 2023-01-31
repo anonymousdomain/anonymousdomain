@@ -16,7 +16,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS }}
           son-of-anton-org: github
-          base: header
+          base: header repositories
+          plugin_lines: yes
           plugin_isocalendar: yes
           plugin_languages: yes
           config_order: base.header, isocalendar, languages, stars
