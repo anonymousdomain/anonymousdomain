@@ -15,6 +15,7 @@ jobs:
       - uses: anonymousdomain/metrics@master
         with:
           token: ${{ secrets.METRICS }}
+          son-of-anton-org: github
           base: header
           plugin_isocalendar: yes
           plugin_languages: yes
