@@ -15,7 +15,7 @@ jobs:
       - uses: anonymousdomain/metrics@master
         with:
           token: ${{ secrets.METRICS }}
-          base: header repositories
+          base: header, activity, community, repositories, metadata
           plugin_lines: yes
           plugin_followup: yes
           plugin_projects: yes
