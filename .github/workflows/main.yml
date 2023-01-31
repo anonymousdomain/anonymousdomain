@@ -14,11 +14,8 @@ jobs:
     steps:
       - uses: anonymousdomain/metrics@master
         with:
-          template: repository
           token: ${{ secrets.METRICS }}
           base: header repositories
-          user: anonymousdomain
-          repo: anonymousdomain
           plugin_lines: yes
           plugin_followup: yes
           plugin_projects: yes
