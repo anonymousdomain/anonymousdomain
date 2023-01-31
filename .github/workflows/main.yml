@@ -16,4 +16,5 @@ jobs:
         with:
           token: ${{ secrets.METRICS }}
           base: header, activity, community, repositories, metadata
-        
+          config_timezone: Europe/Paris
+          plugin_isocalendar: yes
