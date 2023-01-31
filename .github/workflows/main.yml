@@ -16,21 +16,4 @@ jobs:
         with:
           token: ${{ secrets.METRICS }}
           base: header, repositories
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
-          plugin_isocalendar: yes
-          plugin_languages: yes
-          config_order: base.header, isocalendar, languages, stars
-          plugin_leetcode: yes
-          plugin_leetcode_sections: solved, skills, recent
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
-          config_timezone: Europe/Paris
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers, sponsors
-          config_display: rows
+        
