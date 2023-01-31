@@ -21,7 +21,6 @@ jobs:
           config_order: base.header, isocalendar, languages, stars
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
-          plugin_stars: yes
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
