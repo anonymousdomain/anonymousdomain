@@ -11,11 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    
     steps:
       - uses: anonymousdomain/metrics@master
         with:
           token: ${{ secrets.METRICS }}
           base: header
+          settings.json: metrics.run.puppeteer.scrapping
           use_prebuilt_image: yes
           config_padding: 0, 10 + 8%
           config_timezone: Europe/Paris
