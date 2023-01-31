@@ -22,3 +22,4 @@ jobs:
           config_order: base.header, isocalendar, languages, stars
           config_padding: 10
           config_output: insights
+          use_prebuilt_image: yes
