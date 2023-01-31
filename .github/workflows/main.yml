@@ -33,4 +33,4 @@ jobs:
           config_timezone: Europe/Paris
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers, sponsors
-          config_display: columns
+          config_display: rows
