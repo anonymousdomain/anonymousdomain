@@ -14,10 +14,14 @@ jobs:
     steps:
       - uses: anonymousdomain/metrics@master
         with:
+          template: repository
           token: ${{ secrets.METRICS }}
-          son-of-anton-org: github
           base: header repositories
+          user: anonymousdomain
+          repo: anonymousdomain
           plugin_lines: yes
+          plugin_followup: yes
+          plugin_projects: yes
           plugin_isocalendar: yes
           plugin_languages: yes
           config_order: base.header, isocalendar, languages, stars
