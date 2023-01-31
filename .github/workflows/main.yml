@@ -16,6 +16,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS }}
           base: header, activity, community, repositories, metadata
+          use_prebuilt_image: yes
+          config_padding: 0, 10 + 8%
           config_timezone: Europe/Paris
           plugin_isocalendar: yes
           plugin_languages: yes
